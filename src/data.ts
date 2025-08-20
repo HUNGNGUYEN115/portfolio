@@ -8,9 +8,9 @@ export const PersonalInfo: AboutMeData = {
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/NGUYENTIENHUNG_CV.pdf`,
   links: {
-    github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
-    linkedIn: "https://www.linkedin.com/in/NAME",
+    github: "https://github.com/HUNGNGUYEN115",
+    itchIO: "https://hungnguyen115.itch.io/",
+    linkedIn: "linkedin.com/in/hưng-nguyễn-a41043250",
   }
 };
 
@@ -18,7 +18,7 @@ export const games: Game[] = [
   {
     name: "SUPER PENGUIN",
     description: "My first personal top-down game where the player(penguin) shooting the wolfs.",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    roles: ["programmer", "music desiner"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
@@ -36,7 +36,7 @@ export const games: Game[] = [
   {
     name: "GAME_NAME",
     description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    roles: ["GAME_GENRE", "GAME_GENRE..."],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
