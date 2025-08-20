@@ -43,6 +43,8 @@ export interface AboutMeData {
 export interface Game {
   name: string;
   description: string;
+  
+  
   roles: string[];
   source?: { name: string; url: string };
   links: { source: LinkImageSource; url: string }[];
