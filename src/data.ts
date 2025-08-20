@@ -27,11 +27,11 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://youtu.be/WRkOAlLJh30", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/SUPER PENGUIN/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/watch?v=WRkOAlLJh30", type: MediaType.YouTube },
+      { source: "/images/games/SUPER PENGUIN/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/SUPER PENGUIN/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/SUPER PENGUIN/Screenshot_4.png", type: MediaType.Image },
     ],
   },
   {
