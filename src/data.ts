@@ -16,19 +16,19 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
+    name: "SUPER PENGUIN",
+    description: "My first personal top-down game where the player(penguin) shooting the wolfs.",
     
-    projectmember: ["we"],
+    myrole: ["main programmer, sound music"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+     
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
+      { source: "https://youtu.be/WRkOAlLJh30", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
@@ -37,7 +37,7 @@ export const games: Game[] = [
   {
     name: "GAME_NAME",
     description: "GAME_DESCRIPTION",
-    projectmember: ["we"],
+    myrole: ["we"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
