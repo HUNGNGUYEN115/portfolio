@@ -10,7 +10,7 @@ export const PersonalInfo: AboutMeData = {
   links: {
     github: "https://github.com/HUNGNGUYEN115",
     itchIO: "https://hungnguyen115.itch.io/",
-    linkedIn: "linkedin.com/in/hưng-nguyễn-a41043250",
+    linkedIn: "https://www.linkedin.com/in/hung-nguyen-a41043250/",
   }
 };
 
