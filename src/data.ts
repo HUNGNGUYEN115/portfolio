@@ -4,7 +4,7 @@ export const PersonalInfo: AboutMeData = {
   name: "NGUYEN TIEN HUNG",
   role: "GAME PROGRAMMER",
   introduction: "A PASSIONATE GAME PROGRAMMER, SPECIALIZING IN C# AND UNITY. I LOVE TO LEARN AND CHALLENGE MYSELF IN THE FIELD OF GAME DEVELOPMENT",
-  description: "TELL_ABOUT_YOURSELFHi, I’m Hung, a game programmer with a strong passion for creating interactive and engaging experiences. My expertise lies in C# and Unity, where I develop gameplay systems, UI/UX features, and immersive mechanics.I also have knowledge of Python, SQL, MongoDB, and web technologies, which enables me to integrate data-driven solutions into games. I enjoy problem-solving, optimizing performance, and collaborating in team environments. Currently, I’m expanding my skills by learning Unreal Engine and C++.",
+  description: "Hi, I’m Hung, a game programmer with a strong passion for creating interactive and engaging experiences. My expertise lies in C# and Unity, where I develop gameplay systems, UI/UX features, and immersive mechanics.I also have knowledge of Python, SQL, MongoDB, and web technologies, which enables me to integrate data-driven solutions into games. I enjoy problem-solving, optimizing performance, and collaborating in team environments. Currently, I’m expanding my skills by learning Unreal Engine and C++.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/NGUYENTIENHUNG_CV.pdf`,
   links: {
