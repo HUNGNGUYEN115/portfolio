@@ -19,7 +19,7 @@ export const games: Game[] = [
     name: "SUPER PENGUIN",
     description: "My first personal top-down game where the player(penguin) shooting the wolfs.",
     
-    myrole: ["main programmer, sound music"],
+    roles: ["main programmer, sound music"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
@@ -29,6 +29,7 @@ export const games: Game[] = [
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
@@ -37,7 +38,7 @@ export const games: Game[] = [
   {
     name: "GAME_NAME",
     description: "GAME_DESCRIPTION",
-    myrole: ["we"],
+    roles: ["we"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
