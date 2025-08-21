@@ -24,7 +24,7 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/super-peguin" },
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
@@ -42,8 +42,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/bio-quiz" },
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_5.png", type: MediaType.Image },
@@ -62,7 +62,7 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/mushroom-picker" },
       { source: LinkImageSource.Github, url: "https://github.com/heredos/Mushroom-Picker" },
     ],
     media: [
@@ -99,12 +99,12 @@ export const games: Game[] = [
     name: "THE VEIL OF SORCERY",
     description: "“An open-world game (Group Project) where the player can attack enemies, talk to spirits, and buy new items at the store.”",
     
-    roles: [" Programmer – Implemented ZED camera integration, developed particle systems, game tester, video editer."],
+    roles: [" Menu design, , game tester, audio implementer ,video editer."],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/the-veil-of-sercery" },
       
     ],
     media: [
