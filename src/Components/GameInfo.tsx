@@ -43,12 +43,14 @@ const InfoTable = styled(Column)`
 
 const InfoRow = styled(Row)`
   gap: 8px;
+  align-items: flex-start;
 `;
 
 const InfoKey = styled.span`
   font-weight: bold;
   min-width: 70px;
   text-align: left;
+  padding-top: 2px;
 `;
 
 const InfoValue = styled.span`

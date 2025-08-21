@@ -10,7 +10,7 @@ export enum Platform {
   iOS = "iOS",
   Android = "Android",
   Oculus = "Oculus",
-  Zedcamera = "Zedcamera",
+  Zedcamera = "Zed camera",
 }
 
 export enum GameEngine {
