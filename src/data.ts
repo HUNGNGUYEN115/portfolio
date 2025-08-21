@@ -94,5 +94,26 @@ export const games: Game[] = [
       { source: "/images/games/GAME_NAME/Screenshot_14.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_15.png", type: MediaType.Image },
     ],
+  },
+  {
+    name: "THE VEIL OF SORCERY",
+    description: "“An open-world game (Group Project) where the player can attack enemies, talk to spirits, and buy new items at the store.”",
+    
+    roles: [" Programmer – Implemented ZED camera integration, developed particle systems, game tester, video editer."],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+     
+      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      
+    ],
+    media: [
+      { source: "/images/games/GAME_NAME/Screenshot_17.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/xQIHTu1hMp0", type: MediaType.YouTube },
+      
+      { source: "/images/games/GAME_NAME/Screenshot_16.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_18.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_19.png", type: MediaType.Image },
+    ],
   }
 ];
