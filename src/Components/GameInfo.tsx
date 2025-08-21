@@ -50,7 +50,7 @@ const InfoKey = styled.span`
   font-weight: bold;
   min-width: 70px;
   text-align: left;
-  padding-top: 2px;
+  
 `;
 
 const InfoValue = styled.span`

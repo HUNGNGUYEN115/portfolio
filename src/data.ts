@@ -29,7 +29,7 @@ export const games: Game[] = [
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
-      { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
+      
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
