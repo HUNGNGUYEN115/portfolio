@@ -9,6 +9,8 @@ export enum Platform {
   Linux = "Linux",
   iOS = "iOS",
   Android = "Android",
+  Oculus = "Oculus",
+  Zedcamera = "Zedcamera",
 }
 
 export enum GameEngine {
