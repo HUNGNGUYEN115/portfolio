@@ -6,7 +6,7 @@ export const PersonalInfo: AboutMeData = {
   introduction: "A PASSIONATE GAME PROGRAMMER, SPECIALIZING IN C# AND UNITY. I LOVE TO LEARN AND CHALLENGE MYSELF IN THE FIELD OF GAME DEVELOPMENT",
   description: "Hi, I’m Hung, a game programmer with a strong passion for creating interactive and engaging experiences. My expertise lies in C# and Unity, where I develop gameplay systems, UI/UX features, and immersive mechanics.I also have knowledge of Python, SQL, MongoDB, and web technologies, which enables me to integrate data-driven solutions into games. I enjoy problem-solving, optimizing performance, and collaborating in team environments. Currently, I’m expanding my skills by learning Unreal Engine and C++.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/NGUYENTIENHUNG_CV.pdf`,
   links: {
     github: "https://github.com/HUNGNGUYEN115",
     itchIO: "https://hungnguyen115.itch.io/",
@@ -83,7 +83,7 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      
       
     ],
     media: [
