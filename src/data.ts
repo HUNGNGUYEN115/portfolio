@@ -16,41 +16,45 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "SUPER PENGUIN",
-    description: "My first personal top-down game where the player(penguin) shooting the wolfs.",
+    name: "2D PIXEL GAME",
+    description: "2D top-down game with basic systems and pixel art (Personal Project).",
     
-    roles: ["main programmer, audio implementer, game tester."],
+    roles: [" Programmer , audio, game tester, video editer."],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/super-peguin" },
+      
+      
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
+      { source: "/images/games/GAME_NAME/img1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/Fe8E3jB58XE", type: MediaType.YouTube },
       
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/img2.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/im3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/img4.png", type: MediaType.Image },
     ],
   },
   {
-    name: "BIO QUIZ",
-    description: "A card memory game featuring biology knowledge, developed as a serious game for biology students (Group Project).",
-    roles: ["UX/UI designer, game mechanics designer, audio implementer, menu system implementer, game tester."],
-    platforms: [Platform.Windows],
+    name: "ICT SHOWROOM PHYSICS SIMULATION",
+    description: "Serious game (Group Project) designed for entertainment purposes in an ICT showroom where player can interact with various physics-based particles.",
+    
+    roles: [" Programmer – Implemented ZED camera integration, developed particle systems, game tester, video editer."],
+    platforms: [Platform.Windows, Platform.Zedcamera],
     engine: GameEngine.Unity,
     links: [
+     
+      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Isometric2DGame.git" },
       
-      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/bio-quiz" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_5.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/DJ-7mcgdDIs", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_6.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_7.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_12.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/vrTSB2BhkH8", type: MediaType.YouTube },
       
+      { source: "/images/games/GAME_NAME/Screenshot_13.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_14.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_15.png", type: MediaType.Image },
     ],
   },
   {
@@ -74,25 +78,23 @@ export const games: Game[] = [
       { source: "/images/games/GAME_NAME/Screenshot_11.png", type: MediaType.Image },
     ],
   },
+  
   {
-    name: "ICT SHOWROOM PHYSICS SIMULATION",
-    description: "Serious game (Group Project) designed for entertainment purposes in an ICT showroom where player can interact with various physics-based particles.",
-    
-    roles: [" Programmer – Implemented ZED camera integration, developed particle systems, game tester, video editer."],
-    platforms: [Platform.Windows, Platform.Zedcamera],
+    name: "BIO QUIZ",
+    description: "A card memory game featuring biology knowledge, developed as a serious game for biology students (Group Project).",
+    roles: ["UX/UI designer, game mechanics designer, audio implementer, menu system implementer, game tester."],
+    platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-     
       
-      
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/bio-quiz" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_12.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/vrTSB2BhkH8", type: MediaType.YouTube },
+      { source: "/images/games/GAME_NAME/Screenshot_5.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/DJ-7mcgdDIs", type: MediaType.YouTube },
+      { source: "/images/games/GAME_NAME/Screenshot_6.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_7.png", type: MediaType.Image },
       
-      { source: "/images/games/GAME_NAME/Screenshot_13.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_14.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_15.png", type: MediaType.Image },
     ],
   },
   {
@@ -114,6 +116,26 @@ export const games: Game[] = [
       { source: "/images/games/GAME_NAME/Screenshot_16.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_18.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_19.png", type: MediaType.Image },
+    ],
+  },
+  {
+    name: "SUPER PENGUIN",
+    description: "My first personal top-down game where the player(penguin) shooting the wolfs.",
+    
+    roles: ["main programmer, audio implementer, game tester."],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+     
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/super-peguin" },
+    ],
+    media: [
+      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/WRkOAlLJh30", type: MediaType.YouTube },
+      
+      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
     ],
   }
 ];
