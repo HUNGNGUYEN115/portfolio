@@ -59,7 +59,7 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "MUSH ROOM PICKER",
+    name: "MUSH ROOM PICKER", 
     description: "Serious educational VR game (Group Project) where players collect and identify mushrooms using an AI system.",
     
     roles: ["UX/ UI designer, inventory system desinger, game tester, audio implementer, VR interactions programmer ,video editor."],
