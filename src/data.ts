@@ -24,7 +24,7 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
      
-      
+      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Isometric2DGame.git" },
       
     ],
     media: [
@@ -45,10 +45,10 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
      
-      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Isometric2DGame.git" },
+      
       
     ],
-    
+
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_12.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/vrTSB2BhkH8", type: MediaType.YouTube },
