@@ -25,14 +25,14 @@ export const games: Game[] = [
     links: [
      
       { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Isometric2DGame.git" },
-      
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/2d-pixel-game" },
     ],
     media: [
       { source: "/images/games/GAME_NAME/img1.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/Fe8E3jB58XE", type: MediaType.YouTube },
       
       { source: "/images/games/GAME_NAME/img2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/im3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/img3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/img4.png", type: MediaType.Image },
     ],
   },
