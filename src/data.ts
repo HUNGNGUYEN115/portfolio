@@ -15,6 +15,27 @@ export const PersonalInfo: AboutMeData = {
 };
 
 export const games: Game[] = [
+    {
+    name: "Dice of Destiny",
+    description: "A rolling dice game and using spirit cards to get the highscore (Personal Project).",
+    
+    roles: [" Programmer , audio, game tester, video editer."],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+     
+      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Diceofdestiny.git" },
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/dice-of-destiny" },
+    ],
+    media: [
+      { source: "/images/games/GAME_NAME/cat1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/Jli4CkPlHKg", type: MediaType.YouTube },
+      
+      { source: "/images/games/GAME_NAME/cat2.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/cat3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/cat4.png", type: MediaType.Image },
+    ],
+  },
   {
     name: "2D PIXEL GAME",
     description: "2D top-down game with basic systems and pixel art (Personal Project).",
