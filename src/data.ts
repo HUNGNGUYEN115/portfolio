@@ -20,7 +20,7 @@ export const games: Game[] = [
     description: "A mobile game where players choose and drag the correct shape to the corresponding hole (Personal Project).",
     
     roles: [" Programmer , audio, game tester, video editer."],
-    platforms: [Platform.Windows],
+    platforms: [Platform.Android],
     engine: GameEngine.Unity,
     links: [
      
