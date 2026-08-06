@@ -17,7 +17,7 @@ export const PersonalInfo: AboutMeData = {
 export const games: Game[] = [
   {
     name: "Shape Factory",
-    description: "A mobile game where players choose and drag the correct shape to the corresponding hole during an intern in DT Games company (Personal Project).",
+    description: "A mobile game where players can drag the correct shape to the corresponding hole during an intern in DT Games company (Personal Project).",
     
     roles: [" Programmer , audio, game tester, video editer."],
     platforms: [Platform.Android],
