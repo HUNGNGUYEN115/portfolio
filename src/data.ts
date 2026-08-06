@@ -36,7 +36,7 @@ export const games: Game[] = [
       { source: "/images/games/GAME_NAME/shap4.png", type: MediaType.Image },
     ],
   },
-    {
+  {
     name: "Dice of Destiny",
     description: "A rolling dice game and using spirit cards to get the highscore (Personal Project).",
     
