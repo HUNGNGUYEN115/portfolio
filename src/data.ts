@@ -15,6 +15,27 @@ export const PersonalInfo: AboutMeData = {
 };
 
 export const games: Game[] = [
+  {
+    name: "Shape Factory",
+    description: "A mobile game where players choose and drag the correct shape to the corresponding hole (Personal Project).",
+    
+    roles: [" Programmer , audio, game tester, video editer."],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+     
+      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Diceofdestiny.git" },
+      { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/dice-of-destiny" },
+    ],
+    media: [
+      { source: "/images/games/GAME_NAME/shap1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/OiTbEzOIkjQ", type: MediaType.YouTube },
+      
+      { source: "/images/games/GAME_NAME/shap2.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/shap3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/shap4.png", type: MediaType.Image },
+    ],
+  },
     {
     name: "Dice of Destiny",
     description: "A rolling dice game and using spirit cards to get the highscore (Personal Project).",
