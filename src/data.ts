@@ -24,7 +24,7 @@ export const games: Game[] = [
     engine: GameEngine.Unity,
     links: [
 
-      { source: LinkImageSource.Github, url: "https://github.com/HUNGNGUYEN115/Shape-Factory.git" },
+      { source: LinkImageSource.GooglePlay, url: "https://play.google.com/store/apps/details?id=com.DTGames.ShapeFactory" },
       // { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/dice-of-destiny" },
     ],
     media: [
