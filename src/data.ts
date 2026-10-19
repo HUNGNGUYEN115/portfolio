@@ -49,10 +49,10 @@ export const games: Game[] = [
       // { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/dice-of-destiny" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/caught1.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/caught1.jpg", type: MediaType.Image },
 
-      { source: "/images/games/GAME_NAME/caught2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/caught3.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/caught2.jpg", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/caught3.jpg", type: MediaType.Image },
       
     ],
   },
