@@ -37,6 +37,26 @@ export const games: Game[] = [
     ],
   },
   {
+    name: "Don't Get Caught",
+    description: " A fun and challenging puzzle game where every move matters! Play as a clever thief escaping from jail while avoiding police officers, guard dogs, and other obstacles.A mobile game where players can drag the correct shapes to the corresponding hole during an intern in DT Games company (Personal Project).",
+
+    roles: [" Programmer , game designer."],
+    platforms: [Platform.Android],
+    engine: GameEngine.Unity,
+    links: [
+
+      { source: LinkImageSource.GooglePlay, url: "https://play.google.com/store/apps/details?id=com.com.DTGames.DontGetCaught" },
+      // { source: LinkImageSource.ItchIo, url: "https://hungnguyen115.itch.io/dice-of-destiny" },
+    ],
+    media: [
+      { source: "/images/games/GAME_NAME/caught1.png", type: MediaType.Image },
+
+      { source: "/images/games/GAME_NAME/caught2.png", type: MediaType.Image },
+      { source: "/images/games/GAME_NAME/caught3.png", type: MediaType.Image },
+      
+    ],
+  },
+  {
     name: "Dice of Destiny",
     description: "A rolling dice game and using spirit cards to get the highscore (Personal Project).",
 
